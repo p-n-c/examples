@@ -1,5 +1,3 @@
 # Workshop examples
 
-Useful webpages to use during workshops
-
-Check at
+Useful [webpages](https://p-n-c.github.io/examples/) to use during workshops
