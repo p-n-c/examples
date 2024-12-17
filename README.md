@@ -1,3 +1,5 @@
-# Workshop examples
+# People and Code examples
 
-Useful [webpages](https://p-n-c.github.io/examples/) to use during workshops
+Examples created by [People and Code](https://people-and-code.com/).
+
+See [Examples](https://examples.people-and-code.com/)
