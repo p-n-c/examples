@@ -7,7 +7,7 @@
   "scripts": {
     "lint": "eslint . && prettier --check . && stylelint '**/*.{css,scss}'",
     "start": "parcel && npm run static",
-    "build": "parcel build --dist-dir dist --public-url /examples",
+    "build": "parcel build --dist-dir dist",
     "publish": "rm -rf dist && rm -rf .parcel-cache && npm run build && gh-pages -d dist"
   },
   "source": [
