@@ -15,9 +15,10 @@
   ],
   "devDependencies": {
     "eslint": "latest",
+    "gh-pages": "^6.2.0",
+    "parcel": "latest",
     "prettier": "latest",
     "stylelint": "latest",
-    "parcel": "latest",
     "stylelint-config-standard": "latest"
   }
 }
