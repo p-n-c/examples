@@ -1,0 +1,67 @@
+{
+  "Section": {
+    "prefix": "pac-section",
+    "body": [
+      "<section aria-labelledby=\"${1:id}\">",
+      " <h${2:header number} id=\"${1:id}\">${3:header}</h${2:header number}>",
+      "</section>",
+    ],
+    "description": "Section",
+  },
+  "Action": {
+    "prefix": "pac-action",
+    "body": [
+      "<p>",
+      "  <em>",
+      "    <strong>${1:action}</strong>: ${2:action description}",
+      "  </em>",
+      "</p>",
+    ],
+    "description": "Workshop action",
+  },
+  "PaC Examples footer": {
+    "prefix": "pac-examples-footer",
+    "body": [
+      "<footer id=\"footer\">",
+      "  <nav aria-label=\"Primary\">",
+      "    <a href=\"/src/index.html\">Examples</a>",
+      "    <a href=\"https://workshops.people-and-code.com\">Workshops</a>",
+      "    <a href=\"https://people-and-code.com\">PaC Website</a>",
+      "  </nav>",
+      "  <div class=\"copyright\">",
+      "    &copy; 2025 People and Code. All rights reserved.",
+      "  </div>",
+      "</footer>",
+    ],
+    "description": "Examples PaC footer",
+  },
+  "Standard PaC Header": {
+    "prefix": "pac-header",
+    "body": [
+      "<header>",
+      "  <a href=\"#main\" class=\"skip\">Skip to main content</a>",
+      "  <div>",
+      "    <h1>${1:header}</h1>",
+      "  </div>",
+      "</header>",
+    ],
+    "description": "Standard PaC Header",
+  },
+  "Standard PaC Byline": {
+    "prefix": "pac-byline",
+    "body": [
+      "<div class=\"byline\">",
+      "  <img",
+      "    class=\"byline-logo\"",
+      "    src=\"/src/media/pac-logo.svg\"",
+      "    alt=\"People and code logo.\"",
+      "  />",
+      "  <div>",
+      "    <div class=\"byline-brand\">People and Code</div>",
+      "    <div class=\"byline-tagline\">At Your Disposal</div>",
+      "  </div>",
+      "</div>",
+    ],
+    "description": "Standard PaC Byline",
+  },
+}
